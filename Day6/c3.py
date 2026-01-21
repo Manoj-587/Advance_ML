@@ -5,7 +5,6 @@ warnings.filterwarnings("ignore")
 
 from ML_Modules import model_adaboost_classifier
 
-
 filename = input().strip()
 
 df = pd.read_csv(os.path.join(sys.path[0], filename))
